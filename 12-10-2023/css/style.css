@@ -1,0 +1,103 @@
+*{
+	font-family: 'Raleway', sans-serif;;
+}
+.a{
+	padding: 8px;
+}
+.fa{
+	margin-right:8px;
+}
+.b{
+	padding-top:73px;
+	padding-left:0px;
+	padding-right: 0px;
+}
+.c{
+	padding-top:200px;
+	color: white;
+	text-align: center;
+}
+.d{
+	font-size: 58px;
+}
+.e{
+	padding-bottom: 10px;
+}
+.f{
+	background-color: #745CF9;
+	border: 0px;
+	width: 15%;
+	padding: 13px;
+}
+.g{
+	border:2px solid white;
+	color: black;
+}
+.i{
+	background-color:#F5F5F5;
+}
+.j{
+	font-size: 36px;
+	padding-top:100px;
+}
+.k{
+	margin-left: 10px;
+	background-color:transparent;
+	font-size: 13px;
+	margin-top: 8px;
+	width: 200px;
+}
+.k:hover{
+	color: black !important;
+	background-color: white !important;
+}
+nav div a{
+	padding-left: 130px;
+}
+.navbar .navbar-nav .nav-link{
+	font-size: 13px;
+	padding-right: 5px;
+	color: black;
+}
+.l{
+	color:#3A52BF;
+	font-size: 15px;
+}
+@media (min-width:425px){
+	.banner-btns{
+		flex-direction: row !important;
+	}
+}
+@media (min-width:768px){
+	.nav{
+/*		overflow: scroll;*/
+	}
+}
+@media (min-width:1440px){
+	.nav{
+/*		position: fixed;*/
+	}
+}
+
+.custom-hover-card {
+	overflow: hidden;
+}
+
+.custom-hover-card .hover-text{
+font-size: 16px;
+font-weight: 700;
+color: white;
+position: absolute;
+margin: auto;
+left: 0;
+bottom:-140%;
+right: 0;
+margin: auto;
+text-align: center;
+}
+
+.custom-hover-card:hover .hover-text {
+	bottom: 45%;
+	transition: 300ms;
+
+}
